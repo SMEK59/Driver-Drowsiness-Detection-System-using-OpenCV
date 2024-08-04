@@ -12,7 +12,7 @@ alarm_sound = pygame.mixer.Sound("mixkit-classic-alarm-995 (1).wav")
 
 # Initialize face detector and facial landmark predictor
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor("C:\\Users\\dell\\Documents\\shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 # Initialize variables
 sleep = 0
