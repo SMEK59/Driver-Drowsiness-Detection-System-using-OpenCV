@@ -7,17 +7,17 @@ This project implements a real-time driver drowsiness detection system using Ope
 
 ***1. Face and Eye Detection :***
 
--Detect the face and eyes within the face using Haar cascades.
+-Utilizes OpenCV's Haar cascades to detect the face and eyes within the face.
 
 ***2. Eye Aspect Ratio (EAR) :***
 
 -Determine if the eyes are closed by computing the Eye Aspect Ratio.
+
 -Calculates EAR using the distances between vertical and horizontal eye landmarks.
 
 ***3. Drowsiness Alert :***
 
--Trigger an alert when the EAR indicates prolonged eye closure.
--Monitors EAR over time and activates an alert if it falls below a threshold for a specified period.
+-Triggers an alert if the EAR is below a threshold for a continuous period, indicating potential drowsiness.
 
 ***4.  Beverage Recommendation :***
 
